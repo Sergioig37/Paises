@@ -20,7 +20,7 @@ export const App = () => {
     <>
         <Titulo/>
         <Buscador onFindIdioma={findIdioma}/>
-        <ListaPaises idioma={idioma}/>
+        <ListaPaises idioma={idioma} key={idioma}/>
     </>
   )
 }
